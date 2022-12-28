@@ -4,8 +4,14 @@
 
 Always add new depedencies for project to `./requirements.in`
 
-And to install depedencies just run:
+And to build depedencies file just run:
 
 ```python
 pip-compile requirements.in
+```
+
+To install depedencies run:
+
+```python
+pip install -r manual-requirement.txt
 ```
